@@ -11,8 +11,8 @@ A simple terminal-based game where players compete against an AI dealer to reach
 1. Install Python 3
 2. Clone this repository
 3. change current directory to 21-Game, then to src
-   cd 21-Game
-   cd src
+- cd 21-Game
+- cd src
 5. run the game with
    python3 "21 Game.py"
 
