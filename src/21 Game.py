@@ -1,5 +1,6 @@
 import random
 
+#Assigns string to a number value
 card_values = {
     'A': 11,
     '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,
@@ -105,6 +106,7 @@ def dealer_turn(win_count):
       home(win_count)
 
 def home(win_count):
+    #Checks input
     while True:
         print("\nWin Counter:", win_count)
         y = input("Do you want to play Blackjack? (Y/N): ")
